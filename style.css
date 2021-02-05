@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    font-family: serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-color: #fae1dd;
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    max-width: 100px;
+    max-height: 100px;
+    padding-left: 20px;
+
+}
+
+navbar-nav li{
+    padding: 0 10px ;
+}
+
+.navbar-nav li a{
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+#banner{
+    background-color: #fae1dd;
+    color: #333333;
+    padding-top: 5%;
+}
+
+.banner-h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+#offers{
+    padding: 80px 0;
+}
+
+#offers p{
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.title-offers::before{
+    content: ' ';
+    background: #fae1dd;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.title::before{
+    content: ' ';
+    background: #fae1dd;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#menu-card #card{
+    padding: 30px 30px;
+}
